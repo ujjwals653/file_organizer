@@ -19,15 +19,15 @@ It categorizes files like Images, Documents, Audio, Videos, Code files, Archives
 
 ### 📁 Before Organization
 
-![Before](assets\before.png)
+![Before](assets/before.png)
 
 ### 🗃️ After Organization
 
-![After](assets\after.png)
+![After](assets/after.png)
 
 ---
 
-## 🚀 How to Use
+## ❓ How to Use
 
 1. **Download the latest release** (the `.exe` file) from the repository’s [Releases](../../releases) section.
 2. Place the `.exe` file anywhere on your computer (e.g., Desktop).
