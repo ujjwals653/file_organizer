@@ -51,7 +51,6 @@ It categorizes files like Images, Documents, Audio, Videos, Code files, Archives
 
 ## 🛠️ Future Improvements
 
-- Progress bar for large folders
 - Undo last organization
 - Custom category configuration (JSON)
 - Auto-organize mode (real-time folder watch)
