@@ -38,20 +38,12 @@ It categorizes files like Images, Documents, Audio, Videos, Code files, Archives
 
 ---
 
----
-
 ## 🧩 Tech Stack
 
 - **Language:** Python
 - **GUI:** Tkinter
 - **Libraries:** `os`, `shutil`, `tkinter`, `filedialog`, `messagebox`
 - **Packaged with:** PyInstaller (`pyinstaller --onefile file_organizer_gui.py`)
-
----
-
-## 🛠️ Future Improvements
-
-- Auto-organize mode (real-time folder watch)
 
 ---
 

@@ -4,7 +4,7 @@ import mimetypes
 
 # keep last moves for undo; external modules will use these functions
 _last_moves = []
-
+SENTINEL_FILENAME = "AUTO-ORGANIZER-WATCH - This folder is under watch of auto organizer (delete this to stop auto organization).txt"
 
 def _resolve_duplicate(dest_path):
     """
@@ -66,6 +66,8 @@ def organize_folder(folder_path, categories_dict, selected_categories=None, log_
     for entry in os.listdir(folder_path):
         full = os.path.join(folder_path, entry)
         if os.path.isfile(full):
+            if entry == SENTINEL_FILENAME:
+                continue
             files.append(entry)
 
     # Filter and prepare list of candidate moves
